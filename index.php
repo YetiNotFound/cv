@@ -11,16 +11,16 @@ $data = mysqli_fetch_array($result);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="cv/main.css">
     <script src="script.js"></script>
     <title>Curicullum Vitae</title>
 </head>
 
 <body class="p-3">
-  <nav class="navbar sticky-top bg-body-tertiary biru">
+  <nav class="navbar sticky-top bg-body-tertiary color">
     <div class="container-fluid">
       <h1>Curriculum Vitae</h1>
-      <a class="navbar-brand" href="admin.php">Update</a>
+      <a class="navbar-brand" href="cv/admin.php">Update</a>
     </div>
   </nav>
   <div class="card">
@@ -40,7 +40,7 @@ $data = mysqli_fetch_array($result);
     </div>
   </div>
   <!-- Tampilkan komentar -->
-  <nav class="navbar sticky-top bg-body-tertiary biru">
+  <nav class="navbar sticky-top bg-body-tertiary color">
     <div class="container-fluid">
      
     </div>

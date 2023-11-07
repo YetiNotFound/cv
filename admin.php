@@ -58,13 +58,13 @@ $data = getCVData();
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="admin.css">
   <title>Update CV</title>
 </head>
 
 <body class="p-3">
   <!-- <div class="container mt-5"> -->
-    <nav class="navbar sticky-top bg-body-tertiary biru">
+    <nav class="navbar sticky-top bg-body-tertiary warna">
       <div class="container-fluid">
         <h1>Update CV</h1>
         <a class="navbar-brand" href="/cv">View</a>
