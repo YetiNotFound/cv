@@ -11,7 +11,7 @@ $data = mysqli_fetch_array($result);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="cv/main.css">
+    <link rel="stylesheet" href="main.css">
     <script src="script.js"></script>
     <title>Curicullum Vitae</title>
 </head>
@@ -20,7 +20,7 @@ $data = mysqli_fetch_array($result);
   <nav class="navbar sticky-top bg-body-tertiary color">
     <div class="container-fluid">
       <h1>Curriculum Vitae</h1>
-      <a class="navbar-brand" href="cv/admin.php">Update</a>
+      <a class="navbar-brand" href="admin.php">Update</a>
     </div>
   </nav>
   <div class="card">
