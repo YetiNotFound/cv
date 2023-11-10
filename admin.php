@@ -64,10 +64,10 @@ $data = getCVData();
 
 <body class="p-3">
   <!-- <div class="container mt-5"> -->
-    <nav class="navbar sticky-top bg-body-tertiary warna">
-      <div class="container-fluid">
-        <h1>Update CV</h1>
-        <a class="navbar-brand" href="/cv">View</a>
+    <nav class="navbar sticky-top bg-body-tertiary">
+      <div class="container-fluid bg-white">
+        <h1 class = "font-weight-bold">Update CV</h1>
+        <a class="navbar-brand font-weight-bold" href="/cv">View</a>
       </div>
     </nav>
     <div class="card">
@@ -92,7 +92,7 @@ $data = getCVData();
               <label for="formFile" class="form-label">Foto Path</label>
               <input class="form-control" type="text" id="formFile" name="foto_path" value="<?php echo $data['foto_path']; ?>" required>
             </div>
-            <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
+            <button type="submit" class="btn btn-primary font-weight-bold">Simpan Perubahan</button>
           </form>
         </div>
       </div>
